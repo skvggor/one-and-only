@@ -1,5 +1,4 @@
-var GAOnScroll,
-	register;
+var GAOnScroll;
 
 GAOnScroll = {};
 
