@@ -1,0 +1,22 @@
+body,
+p {
+	margin: 0;
+}
+
+.site-wrapper {
+	margin: 0 auto;
+	max-width: 960px;
+	width: 100%;
+}
+
+.foo,
+.bar {
+	background-color: #b00;
+	height: 500px;
+	width: 100%;
+}
+
+.foo:nth-child(2n),
+.bar:nth-child(2n) {
+	background: #f00;
+}
