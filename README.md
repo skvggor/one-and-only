@@ -8,6 +8,8 @@ Download jQuery and:
 
 ```javascript
 
-GAOnScroll.fn.attach(selector)(moduleName);
+GAOnScroll.attach('.selector')('moduleName');
+
+GAOnScroll.attach('.selector-foo, .selector-bar')('moduleName');
 
 ```

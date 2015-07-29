@@ -1,9 +1,7 @@
 var GAOnScroll;
 
-GAOnScroll = {};
-
-GAOnScroll.fn = {
-	attachGA: function(selector) {
+(function(exports) {
+	exports.attach = function(selector) {
 		'use strict';
 
 		return function(moduleName) {
@@ -81,9 +79,5 @@ GAOnScroll.fn = {
 
 			$(window).on('scroll', fireEvent);
 		};
-	}
-};
-
-(function() {
-	GAOnScroll.fn;
-})();
+	};
+})(this.GAOnScroll = {});
